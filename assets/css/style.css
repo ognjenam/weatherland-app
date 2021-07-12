@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Montserat Regular';
+  src: url("../assets/fonts/montserat/MontserratAlternates-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Montserat Light';
+  src: url("../assets/fonts/montserat/MontserratAlternates-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Montserat Black';
+  src: url("../assets/fonts/montserat/MontserratAlternates-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Montserat Bold';
+  src: url("../assets/fonts/montserat/MontserratAlternates-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Montserat Semi-Bold';
+  src: url("../assets/fonts/montserat/MontserratAlternates-Semi-Bold.otf") format("opentype");
+}
+
+body {
+  background: #E9EFF2;
+  font-size: 1em;
+}
+
+body .form-control, body .form-control:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .container {
+  max-width: 400px;
+}
+
+body .card {
+  border-radius: 15px 15px 15px 15px;
+}
+
+body .card .time {
+  border-radius: 15px 15px 0px 0px !important;
+}
+
+body .card .icon {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+  width: 100px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
